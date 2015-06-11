@@ -1,15 +1,33 @@
-.git/
+**/config.php
+
+.git
 **/composer.phar
 **/vendor/
+**/pom.xml
+**/pom.xml.original
+**/package.xml
 
 **/target/
 **/rpmbuild-root/
+**/bin/
+**/out/
+**/build/
 **/.project
 **/.classpath
+**/.settings/
 
 *.swp
 .*.swp
-*~
-*.rpm
+*.out
+~
 
-**/config.php
+*.log
+*.zip
+*.exe
+*.rpm
+*.deb
+*.jar
+*.war
+*.ear
+*.class
+*.idea
