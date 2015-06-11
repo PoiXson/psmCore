@@ -1,0 +1,15 @@
+.git/
+**/composer.phar
+**/vendor/
+
+**/target/
+**/rpmbuild-root/
+**/.project
+**/.classpath
+
+*.swp
+.*.swp
+*~
+*.rpm
+
+**/config.php
