@@ -1,0 +1,55 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+	<id>psmCore-package</id>
+	<baseDirectory>/</baseDirectory>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>true</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>${project.basedir}/src</directory>
+			<outputDirectory>/</outputDirectory>
+			<lineEnding>crlf</lineEnding>
+			<useDefaultExcludes>true</useDefaultExcludes>
+			<excludes>
+
+				<exclude>**/.gitignore</exclude>
+				<exclude>**/config.php</exclude>
+
+				<exclude>.git</exclude>
+				<exclude>**/composer.phar</exclude>
+				<exclude>**/vendor/</exclude>
+				<exclude>**/pom.xml</exclude>
+				<exclude>**/pom.xml.original</exclude>
+				<exclude>**/package.xml</exclude>
+
+				<exclude>**/target/</exclude>
+				<exclude>**/rpmbuild-root/</exclude>
+				<exclude>**/bin/</exclude>
+				<exclude>**/out/</exclude>
+				<exclude>**/build/</exclude>
+				<exclude>**/.project</exclude>
+				<exclude>**/.classpath</exclude>
+				<exclude>**/.settings/</exclude>
+
+				<exclude>*.swp</exclude>
+				<exclude>.*.swp</exclude>
+				<exclude>*.out</exclude>
+				<exclude>~</exclude>
+
+				<exclude>*.log</exclude>
+				<exclude>*.zip</exclude>
+				<exclude>*.exe</exclude>
+				<exclude>*.rpm</exclude>
+				<exclude>*.deb</exclude>
+				<exclude>*.jar</exclude>
+				<exclude>*.war</exclude>
+				<exclude>*.ear</exclude>
+				<exclude>*.class</exclude>
+				<exclude>*.idea</exclude>
+
+			</excludes>
+		</fileSet>
+	</fileSets>
+</assembly>
