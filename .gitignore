@@ -3,9 +3,7 @@
 .git
 **/composer.phar
 **/vendor/
-**/pom.xml
 **/pom.xml.original
-**/package.xml
 
 **/target/
 **/rpmbuild-root/
