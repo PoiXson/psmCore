@@ -12,12 +12,12 @@
 	}],
 	"autoload": {
 		"psr-4": {
-			"psmCore\\": "src"
+			"psmCore\\": "src/"
 		}
 	},
 	"archive": {
 		"exclude": [
-			"/example"
+			"/example/"
 		]
 	},
 	"require": {
