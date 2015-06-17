@@ -12,6 +12,9 @@
 			<outputDirectory>/</outputDirectory>
 			<lineEnding>crlf</lineEnding>
 			<useDefaultExcludes>true</useDefaultExcludes>
+			<includes>
+				<include>**</include>
+			</includes>
 			<excludes>
 
 				<exclude>**/.gitignore</exclude>
