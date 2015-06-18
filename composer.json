@@ -3,7 +3,7 @@
 	"description": "Website utilities",
 	"version":     "0.1.0",
 	"type":        "library",
-	"homepage":    "http://psmcore.poixson.com/",
+	"homepage":    "http://poixson.com/",
 	"license":     "GPL-3",
 	"authors": [{
 		"name":  "lorenzop",
