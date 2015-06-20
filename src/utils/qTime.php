@@ -7,7 +7,7 @@
  * @author lorenzo at poixson.com
  * @link http://poixson.com/
  */
-namespace psmCore\Utils;
+namespace psmCore\utils;
 
 class qTime {
 
@@ -57,7 +57,7 @@ class qTime {
 
 
 	public static function getTimestamp() {
-		return \psmCore\Utils\General::getTimestamp();
+		return General::getTimestamp();
 	}
 
 

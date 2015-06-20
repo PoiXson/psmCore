@@ -7,7 +7,7 @@
  * @author lorenzo at poixson.com
  * @link http://poixson.com/
  */
-namespace psmCore\Utils;
+namespace psmCore\utils;
 
 final class San {
 	private final function __construct() {}

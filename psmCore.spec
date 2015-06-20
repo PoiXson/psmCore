@@ -57,7 +57,7 @@ echo "Install.."
 %{__rm} -fv "%{_rpmdir}/%{name}"*.noarch.rpm
 # create directories
 %{__install} -d -m 0755 \
-	"${RPM_BUILD_ROOT}%{prefix}/Utils"    \
+	"${RPM_BUILD_ROOT}%{prefix}/utils"    \
 	"${RPM_BUILD_ROOT}/etc/httpd/conf.d/" \
 	"${RPM_BUILD_ROOT}/etc/php.d/"        \
 		|| exit 1
@@ -75,10 +75,10 @@ for phpfile in \
 	'Paths.php' \
 	'Page.php' \
 	'PageRoute.php' \
-	'Utils/General.php' \
-		'Utils/Numbers.php' \
-		'Utils/qTime.php' \
-		'Utils/San.php' \
+	'utils/General.php' \
+		'utils/Numbers.php' \
+		'utils/qTime.php' \
+		'utils/San.php' \
 ; do
 #	'core.php'                          \
 #	'inc.php'                           \
@@ -141,10 +141,10 @@ fi
 %{prefix}/Paths.php
 %{prefix}/Page.php
 %{prefix}/PageRoute.php
-%{prefix}/Utils/General.php
-%{prefix}/Utils/Numbers.php
-%{prefix}/Utils/qTime.php
-%{prefix}/Utils/San.php
+%{prefix}/utils/General.php
+%{prefix}/utils/Numbers.php
+%{prefix}/utils/qTime.php
+%{prefix}/utils/San.php
 #%{prefix}/core.php
 #%{prefix}/inc.php
 #%{prefix}/ClassLoader.php
